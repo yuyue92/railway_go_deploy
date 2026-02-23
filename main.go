@@ -486,7 +486,7 @@ func (a *App) topArticles(c *gin.Context) {
 }
 
 func health(c *gin.Context) {
-	c.JSON(http.StatusOK, gin.H{"ok": true, "author":"yy3 ,"timestamp": time.Now().UTC()})
+	c.JSON(http.StatusOK, gin.H{"ok": true, "author":"yy3" ,"timestamp": time.Now().UTC()})
 }
 
 // ---------- Main ----------
@@ -533,5 +533,6 @@ func main() {
 		log.Fatal(err)
 	}
 }
+
 
 
