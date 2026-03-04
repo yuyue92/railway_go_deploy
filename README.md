@@ -91,6 +91,8 @@ go run main.go
 curl http://localhost:8080/api/health
 ```
 
+### 已经部署在railway上面。地址`https://railwaygodeploy-production.up.railway.app/api/health`
+
 ---
 
 ## Articles
